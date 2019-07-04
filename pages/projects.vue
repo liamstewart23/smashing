@@ -12,8 +12,7 @@
       </div>
     </section>
     <aside>
-      <h3>About</h3>
-      <p>I am Hawk Philsworth. I am fancy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos pariatur ex totam voluptatibus doloremque quia voluptate repudiandae asperiores tempore! Explicabo, libero? Sunt ad dolores magni tenetur praesentium, perspiciatis ipsum vero!</p>
+
     </aside>
   </main>
 </template>

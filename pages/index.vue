@@ -5,15 +5,13 @@
     </div>
     <div class="headings">
       <h1>
-        Hello tacoface
-        <br>I love delicious tacos
+        Hello World!
       </h1>
-      <p>Please eat tacos.</p>
+      <p>:)</p>
     </div>
     <div class="links">
-      <p>Go follow Hawk Philsworth</p>
+      <p>Liam was here.</p>
     </div>
-    <div class="nextpage">Projects ></div>
   </main>
 </template>
 
