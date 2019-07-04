@@ -18,14 +18,16 @@ export default {
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto&display=swap"
-      }
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]
   },
+
+  webfontloader: {
+    google: {
+      families: ['Alfa Slab One', 'Roboto']
+    }
+  },
+
   /*
    ** Customize the progress-bar color
    */
@@ -41,7 +43,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    'nuxt-webfontloader',
+  ],
   /*
    ** Build configuration
    */
