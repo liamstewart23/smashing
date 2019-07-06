@@ -1,8 +1,8 @@
 {
-  "name": "smashing",
+  "name": "liam-stewart-portfolio",
   "version": "1.0.0",
-  "description": "My remarkable Nuxt.js project",
-  "author": "",
+  "description": "",
+  "author": "Liam Stewart",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -15,7 +15,8 @@
     "node-sass": "^4.12.0",
     "nuxt": "^2.0.0",
     "nuxt-webfontloader": "^1.1.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "vue-meta": "^2.0.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

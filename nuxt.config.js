@@ -7,7 +7,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: process.env.npm_package_name || "",
+    title: "Liam Stewart - Web Developer | London Ontario",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -18,13 +18,15 @@ export default {
       }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "stylesheet", type: "stylesheet", href: "https://raw.githubusercontent.com/jonsuh/hamburgers/master/dist/hamburgers.css" }
+
     ]
   },
 
   webfontloader: {
     google: {
-      families: ['Alfa Slab One', 'Roboto']
+      families: ['Quicksand']
     }
   },
 

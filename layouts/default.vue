@@ -11,16 +11,22 @@ import AppNav from "~/components/AppNav.vue";
 export default {
   components: {
     AppNav
-  }
+  },
+    data() {
+        return {
+            menuActive: 'is-active',
+        }
+    }
 };
 </script>
 
 
 <style>
+
 html {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -40,9 +46,10 @@ a:active {
 
 h1,
 h2,
-h3 {
-  font-family: "Alfa Slab One", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+h3,
+p,
+li {
+  font-family: "Quicksand", sans-serif;
   font-weight: normal;
 }
 
@@ -56,4 +63,5 @@ h1 {
   box-sizing: border-box;
   margin: 0;
 }
+
 </style>

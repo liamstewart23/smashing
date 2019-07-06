@@ -21,6 +21,16 @@
 import { mapState } from "vuex";
 
 export default {
+
+    head () {
+        return {
+            title: 'projects yo',
+            meta: [
+                { hid: 'description', name: 'description', content: 'My custom description' }
+            ]
+        }
+    },
+
   computed: {
     ...mapState(["githubProjects"])
   }
