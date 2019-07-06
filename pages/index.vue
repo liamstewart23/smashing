@@ -1,10 +1,10 @@
 <template>
   <main>
     <div class="headings">
-      <h1>
-        Hello, My name is <span>Liam Stewart</span>
-      </h1>
-      <p>Web Developer from London, Ontario</p>
+      <span>
+        Hello, My name is
+      </span>
+      <h1><span>Liam Stewart</span> Web Developer from London, Ontario</h1>
     </div>
   </main>
 </template>
@@ -14,13 +14,16 @@
 main {
   display: flex;
   margin: 8rem;
+  span {
+    font-size: 4.5rem;
+  }
   h1 {
-    font-size: 4.5em;
     padding: 0;
     span {
       font-size: 6rem;
       display: block;
     }
+    font-size: 2.1rem;
   }
   p {
     font-size: 2rem;

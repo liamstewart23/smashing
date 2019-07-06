@@ -33,8 +33,28 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background: #0b0d17;
   color: #eee;
+}
+
+body {
+  width: 100wh;
+  height: 90vh;
+  color: #eee;
+  background: linear-gradient(-45deg, #EE7752, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: Gradient 25s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
 
 a,
@@ -48,6 +68,7 @@ h1,
 h2,
 h3,
 p,
+span,
 li {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
