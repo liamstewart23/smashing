@@ -19,8 +19,11 @@ export default {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        { rel: "stylesheet", type: "stylesheet", href: "https://raw.githubusercontent.com/jonsuh/hamburgers/master/dist/hamburgers.css" }
-
+      {
+          rel: "stylesheet",
+          href:
+              "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      }
     ]
   },
 
