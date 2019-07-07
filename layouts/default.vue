@@ -74,10 +74,6 @@ li {
   font-weight: normal;
 }
 
-h1 {
-  font-weight: 45px;
-}
-
 *,
 *:before,
 *:after {

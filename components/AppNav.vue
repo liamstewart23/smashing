@@ -18,7 +18,10 @@
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin: 2rem;
+  margin: 1rem;
+  @media only screen and (min-width: 480px){
+    margin: 2rem;
+  }
   outline: none;
   * {
     outline: none;
