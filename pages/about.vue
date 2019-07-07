@@ -22,14 +22,29 @@
 
 <style lang="scss" scoped>
 main {
-margin: 6rem;
-  width: 40vw;
-h1 {
-  margin-bottom: 2rem;
-  font-size: 4rem;
-}
+  width: 80vw;
+  margin: 2rem;
+  @media only screen and (min-width: 480px){
+    width: 60vw;
+    margin: 4rem;
+  }
+  @media only screen and (min-width: 992px){
+    width: 40vw;
+    margin: 8rem;
+  }
+  h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      @media only screen and (min-width: 480px) {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+      }
+    }
   article {
-    font-size: 1.25rem;
+    font-size: .8rem;
+    @media only screen and (min-width: 480px) {
+      font-size: 1.25rem;
+    }
     p {
       margin-bottom: 1rem;
     }
