@@ -39,10 +39,10 @@ html {
 body {
   width: 100wh;
   height: 90vh;
-  color: #eee;
-  background: linear-gradient(-45deg, #a123d5, #d2d523, #d52323, #2331d5, #23d57b, #EE7752);
-  background-size: 400% 400%;
-  animation: Gradient 25s ease infinite;
+  color: #000;
+/*  background: linear-gradient(-45deg, #a123d5, #d2d523, #d52323, #2331d5, #23d57b, #EE7752);
+//  background-size: 400% 400%;
+  animation: Gradient 25s ease infinite;*/
 }
 
 @keyframes Gradient {
