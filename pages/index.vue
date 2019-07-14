@@ -27,6 +27,9 @@ main {
       @media only screen and (min-width: 768px) {
         font-size: 8.5rem;
       }
+      strong {
+        font-weight: 700;
+      }
     }
   }
 }

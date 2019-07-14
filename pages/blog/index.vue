@@ -13,33 +13,6 @@
                 <small>Aug 31, 2016</small>
             </article>
 
-            <article class="post">
-                <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
-                    </nuxt-link>
-                </h2>
-                <small>Aug 31, 2016</small>
-            </article>
-
-            <article class="post">
-                <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
-                    </nuxt-link>
-                </h2>
-                <small>Aug 31, 2016</small>
-            </article>
-
-            <article class="post">
-                <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
-                    </nuxt-link>
-                </h2>
-                <small>Aug 31, 2016</small>
-            </article>
-
         </div>
 
     </main>

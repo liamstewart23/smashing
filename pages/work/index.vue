@@ -5,40 +5,72 @@
         <div class="posts">
 
             <article class="post">
+                <nuxt-link to="/work/affinio" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/affinio.png');"></div>
+                </nuxt-link>
+
                 <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
+                    <nuxt-link to="/work/affinio">
+                        Affinio
                     </nuxt-link>
                 </h2>
-                <small>Aug 31, 2016</small>
             </article>
 
             <article class="post">
+                <nuxt-link to="/work/ocean-vodka" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/ocean.jpg');"></div>
+                </nuxt-link>
                 <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
+                    <nuxt-link to="/work/ocean-vodka">
+                        Ocean Vodka
                     </nuxt-link>
                 </h2>
-                <small>Aug 31, 2016</small>
             </article>
 
             <article class="post">
+                <nuxt-link to="/work/the-factory" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/factory.jpg');"></div>
+                </nuxt-link>
                 <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
+                    <nuxt-link to="/work/the-factory">
+                        The Factory
                     </nuxt-link>
                 </h2>
-                <small>Aug 31, 2016</small>
             </article>
 
             <article class="post">
+                <nuxt-link to="/work/cowan-insurance-group" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/cowan.jpg');"></div>
+                </nuxt-link>
                 <h2>
-                    <nuxt-link to="/blog/5-simple-wordpress-optimizations-for-beginners">
-                        5 Simple WordPress Optimizations for Beginners
+                    <nuxt-link to="/work/cowan-insurance-group">
+                        Cowan Insurance Group
                     </nuxt-link>
                 </h2>
-                <small>Aug 31, 2016</small>
             </article>
+
+            <article class="post">
+                <nuxt-link to="/work/recharge-with-milk" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/recharge.png');"></div>
+                </nuxt-link>
+                <h2>
+                    <nuxt-link to="/work/recharge-with-milk">
+                        Recharge With Milk
+                    </nuxt-link>
+                </h2>
+            </article>
+
+            <article class="post">
+                <nuxt-link to="/work/maxliving" class="noUnderline">
+                    <div class="image" style="background-image: url('/images/work/ml.jpg');"></div>
+                </nuxt-link>
+                <h2>
+                    <nuxt-link to="/work/maxliving">
+                        MaxLiving
+                    </nuxt-link>
+                </h2>
+            </article>
+
 
         </div>
 
@@ -48,14 +80,11 @@
 
 <style lang="scss" scoped>
     main {
-        width: 80vw;
         margin: 2rem;
         @media only screen and (min-width: 480px) {
-            width: 60vw;
             margin: 4rem;
         }
         @media only screen and (min-width: 992px) {
-            width: 40vw;
             margin: 8rem;
         }
         h1 {
@@ -68,31 +97,32 @@
         }
 
         .posts {
+            @media only screen and (min-width: 480px) {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                flex-wrap: wrap;
+            }
             .post {
+                @media only screen and (min-width: 480px) {
+                    width: 40%;
+                }
+                .image {
+                    width: 100%;
+                    height: 12rem;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    @media only screen and (min-width: 480px) {
+                        height: 20rem;
+                    }
+                }
+                h2 {
+                    margin-top: 1rem;
+                }
                 margin: 3rem 0;
             }
         }
 
     }
 </style>
-
-<script>
-
-    export default {
-        data () {
-            return {
-                nestedRoutes: []
-            }
-        },
-        created () {
-            this.$router.options.routes.forEach((routeOption) => {
-                if (routeOption.path.startsWith(this.$route.path)) {
-                this.nestedRoutes.push({
-                    name: routeOption.name,
-                    path: routeOption.path,
-                })
-            }
-        })
-        }
-    };
-</script>
