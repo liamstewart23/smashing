@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <nuxt-link exact to="/menu">
+    <nuxt-link exact to="/menu" class="menuLink">
       <div class="hamburger hamburger--minus" v-bind:class="{ 'is-active': $route.path === '/menu' }" tabindex="0"
            aria-label="Menu" role="button">
         <div class="hamburger-box">
@@ -33,9 +33,9 @@
   $hamburger-padding-x           : 15px !default;
   $hamburger-padding-y           : 15px !default;
   $hamburger-layer-width         : 40px !default;
-  $hamburger-layer-height        : 4px !default;
+  $hamburger-layer-height        : 6px !default;
   $hamburger-layer-spacing       : 6px !default;
-  $hamburger-layer-color         : #fff !default;
+  $hamburger-layer-color         : #2f2f2f !default;
   $hamburger-layer-border-radius : 4px !default;
   $hamburger-hover-opacity       : 0.9 !default;
   $hamburger-active-layer-color  : $hamburger-layer-color !default;

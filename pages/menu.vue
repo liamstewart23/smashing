@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="menu">
         <div class="row">
             <ul>
                 <li>
@@ -42,35 +42,20 @@
             ul {
                 list-style: none;
                 li {
-                    font-size: 1rem;
+                    font-size: 1.5rem;
                     @media only screen and (min-width: 480px){
-                        font-size: 2rem;
+                        font-size: 4rem;
                     }
                     margin-bottom: 2rem;
                     position: relative;
                     display: block;
+
                     a {
-                        position: relative;
-                        padding: 10px 0;
-                        color: #fff;
                         &:after {
-                            content: '';
-                            position: absolute;
-                            bottom: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 2px;
-                            background-color: #fff;
-                            border: 1px solid #fff;
-                            border-radius: 3rem;
-                            transform: scaleX(0);
-                            transform-origin: bottom left;
-                            transition: transform 0.3s;
-                        }
-                        &:hover:after {
-                            transform: scaleX(1);
+                            height: 6px;
                         }
                     }
+
                 }
             }
         }

@@ -57,28 +57,6 @@
             }
             p {
                 margin-bottom: 1rem;
-                a {
-                    position: relative;
-                    padding: 2px 0;
-                    color: #fff;
-                    &:after {
-                        content: '';
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 2px;
-                        background-color: #fff;
-                        border: 1px solid #fff;
-                        border-radius: 3rem;
-                        transform: scaleX(0);
-                        transform-origin: bottom left;
-                        transition: transform 0.3s;
-                    }
-                    &:hover:after {
-                        transform: scaleX(1);
-                    }
-                }
             }
         }
     }
