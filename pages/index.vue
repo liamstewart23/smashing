@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="headings">
-      <h1>I'm <strong>Liam Stewart</strong> <div>a web developer in</div> <div>London, Ontario.</div></h1>
+      <h1>I'm <strong>Liam Stewart</strong> <span>a web developer in</span> <span>London, Ontario.</span></h1>
     </div>
   </main>
 </template>
@@ -20,15 +20,21 @@ main {
   .headings {
     h1 {
       font-weight: 100;
-      font-size: 2.55rem;
+      font-size: 1.8rem;
+      @media only screen and (min-width: 321px) {
+        font-size: 2.25rem;
+      }
       @media only screen and (min-width: 480px) {
-        font-size: 5rem;
+        font-size: 4rem;
       }
       @media only screen and (min-width: 768px) {
-        font-size: 8.5rem;
+        font-size: 5.5rem;
       }
       strong {
         font-weight: 700;
+      }
+      span {
+        display: block;
       }
     }
   }
