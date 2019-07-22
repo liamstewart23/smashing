@@ -43,6 +43,9 @@
         .posts {
             .post {
                 margin: 3rem 0;
+                h2 {
+                    font-size: 1rem;
+                }
             }
         }
 
