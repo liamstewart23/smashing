@@ -5,16 +5,14 @@
         <small>Aug 31, 2016</small>
         <article>
             <p>
-            WordPress is a super awesome open source software! I personally use it for a lot of my personal projects, as
-            well as my clients over at <a href="https://www.ginge.ca" target="_blank">Ginge Digital Studios</a>.</p>
-
-            <p>
             So what can you do to make your website faster? Here are a few simple ways to speed up your WordPress
                 Website and make your visitors happy!</p>
 
             <h2>Minify your HTML, CSS, and Javascript</h2>
-            Minifying a file isn't any crazy compression algorithm - Minifying is basically removing the spaces (white
-            space) from text files - This includes your HTML, CSS, and Javascript.
+
+            <p>
+                Minifying a file isn't any crazy compression algorithm - Minifying is basically removing the whitespace from files such as HTML, CSS, and Javascript.
+            </p>
 
             <p> While spaces and tabs make the code more readable for humans, servers and internet browsers don't need it to be
                 readable to the human eye to execute.</p>
@@ -91,11 +89,11 @@
 
             <p>
                 So there you have it, 5 ways to improve your site load time and make your website awesome! Optimizing your
-                site helps with site speed, resulting in users exploring your website and engaging with your content.
+                site helps with page speed and SEO, resulting in users exploring your website and engaging with your content.
             </p>
 
             <p>
-                So get out there and speed up your website and use <a href="https://web.dev/measure" target="_blank">Lighthouse</a> to check the improvements!
+               Use Google's <a href="https://web.dev/measure" target="_blank">Lighthouse</a> tool to check your websites performance!
             </p>
 
         </article>

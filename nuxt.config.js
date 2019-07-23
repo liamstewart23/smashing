@@ -44,8 +44,37 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
     'nuxt-webfontloader',
+    'nuxt-purgecss',
+    [
+      '@bazzite/nuxt-netlify',
+      {
+        mergeSecurityHeaders: true
+      }
+    ],
+    [
+      'nuxt-netlify-http2-server-push',
+      {
+        // Specify relative path to the dist directory and its content type
+        resources: [
+          { path: '**/*.js', as: 'script' },
+          { path: 'images/*.jpg', as: 'image' }
+        ]
+      }
+    ]
   ],
+
+  sitemap: {
+    hostname: 'https://liamstewart.ca',
+    gzip: true,
+  },
+
+  purgeCSS: {
+    // your settings here
+  },
+
   /*
    ** Build configuration
    */
