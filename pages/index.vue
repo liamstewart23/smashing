@@ -1,7 +1,12 @@
 <template>
   <main>
     <div class="headings">
-      <h1>I'm <strong>Liam Stewart</strong> <span>a web developer in</span> <span>London, Ontario.</span></h1>
+      <h1>
+        I'm
+        <strong>Liam Stewart</strong>
+        <span>a web developer in</span>
+        <span>London, Ontario.</span>
+      </h1>
     </div>
   </main>
 </template>
