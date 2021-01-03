@@ -1,6 +1,8 @@
-# smashing
+# Liam Stewart Portfolio
 
-> My remarkable Nuxt.js project
+> Nuxt.js project
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcf0c55c-ac64-40b3-aba9-fe8fbc8454a7/deploy-status)](https://app.netlify.com/sites/liamstewart/deploys)
 
 ## Build Setup
 
