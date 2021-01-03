@@ -5,7 +5,7 @@
         I'm
         <strong>Liam Stewart</strong>
         <span>a Web developer in</span>
-        <span><a href="https://en.wikipedia.org/wiki/London,_Ontario" target="_blank">London, Ontario.</a></span>
+        <span><a href="https://en.wikipedia.org/wiki/London,_Ontario" target="_blank" rel="noreferrer" >London, Ontario.</a></span>
       </h1>
     </div>
   </main>

@@ -66,6 +66,17 @@ export default {
     ]
   ],
 
+  pwa: {
+    meta: {
+      theme_color: '#000'
+    },
+    manifest: {
+      name: 'Liam Stewart\'s Website',
+      lang: 'en',
+      useWebmanifestExtension: false
+    }
+  },
+
   sitemap: {
     hostname: "https://liamstewart.ca",
     gzip: true
