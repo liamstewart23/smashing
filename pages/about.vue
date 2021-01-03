@@ -96,6 +96,7 @@ main {
   }
   aside {
     text-align: center;
+    width: 100%;
     img {
       width: 700px;
       height: 700px;

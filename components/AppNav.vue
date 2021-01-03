@@ -20,9 +20,9 @@
         display: flex;
         justify-content: space-between;
         margin: 1rem;
-        width: 80%;
+        /*width: 80%;*/
         @media only screen and (min-width: 480px) {
-            width: 96%;
+            /*width: 96%;*/
             margin: 2rem;
         }
         outline: none;
@@ -50,7 +50,7 @@
     $hamburger-layer-height: 6px !default;
     $hamburger-layer-spacing: 6px !default;
     $hamburger-layer-color: #2f2f2f !default;
-    $hamburger-layer-border-radius: 4px !default;
+    $hamburger-layer-border-radius: 0 !default;
     $hamburger-hover-opacity: 0.8 !default;
     $hamburger-active-layer-color: $hamburger-layer-color !default;
     $hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
