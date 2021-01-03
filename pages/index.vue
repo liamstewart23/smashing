@@ -4,8 +4,8 @@
       <h1>
         I'm
         <strong>Liam Stewart</strong>
-        <span>a web developer in</span>
-        <span>London, Ontario.</span>
+        <span>a Web developer in</span>
+        <span><a href="https://en.wikipedia.org/wiki/London,_Ontario" target="_blank">London, Ontario.</a></span>
       </h1>
     </div>
   </main>

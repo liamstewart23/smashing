@@ -7,8 +7,8 @@
     <h2>
       <a
         href="mailto:hello@liamstewart.ca"
-        title="Send an email to hello@liamstewart.ca"
-      >hello@liamstewart.ca</a>
+        title="Send an email to Liam Stewart"
+      >hello<span>@</span>liamstewart<span>.</span>ca</a>
     </h2>
     <div class="contactGrid">
       <div class="row">
@@ -57,7 +57,7 @@ main {
     }
   }
   h2 {
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     font-weight: normal;
   }
   .contactGrid {
@@ -68,12 +68,11 @@ main {
       display: flex;
       width: 25%;
       margin-top: -2rem;
-      justify-content: space-around;
+      justify-content: space-between;
+      font-size: 2rem;
       @media only screen and (min-width: 480px) {
         width: 15%;
       }
-      justify-content: space-between;
-      font-size: 2rem;
       a {
         svg {
           width: 1.75rem;

@@ -1,7 +1,7 @@
 <template>
   <main>
-    <h1>About Liam</h1>
     <article>
+      <h1>About Liam</h1>
       <p>
         I started my journey in 2011 learning basic HTML and CSS from YouTube videos. In early 2012 I created an
         anti-bullying website called ‘BeingGinge‘. The website was created to provide a place for redheads to
@@ -37,13 +37,13 @@
         my
         experience grew I began learning and experimenting with various frameworks and languages which allows me
         to have a diverse skill set and knowledge base to build any type of web application or website. In April
-        2017 I graduated from
+        2017 I graduated from Fanshawe College’s
         <a
           href="https://www.fanshawec.ca/programs/idp3-interactive-media-design/next"
           title="Fanshawe College’s Interactive Media Design program"
           target="_blank"
           rel="noopener noreferrer"
-        >Fanshawe College’s Interactive Media Design</a>
+        >Interactive Media Design</a>
         program and started at
         <a
           href="https://thearcane.com"
@@ -54,20 +54,20 @@
         that September.
       </p>
     </article>
+    <aside>
+      <img src="/images/liam-stewart.png" alt="Photo of Liam Stewart in London Ontario Canada">
+    </aside>
   </main>
 </template>
 
 
 <style lang="scss" scoped>
 main {
-  width: 80vw;
   margin: 2rem;
   @media only screen and (min-width: 480px) {
-    width: 60vw;
     margin: 4rem;
   }
   @media only screen and (min-width: 992px) {
-    width: 40vw;
     margin: 8rem;
   }
 
@@ -85,7 +85,7 @@ main {
     @media only screen and (min-width: 480px) {
       font-size: 1.25rem;
     }
-
+    padding-bottom: 4rem;
     p {
       margin-bottom: 1rem;
 
@@ -93,6 +93,9 @@ main {
         font-weight: 500;
       }
     }
+  }
+  aside {
+    text-align: center;
   }
 }
 </style>

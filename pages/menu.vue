@@ -9,11 +9,11 @@
                     <nuxt-link to="/about">About</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/work">Work</nuxt-link>
+                    <nuxt-link to="/contact">Contact</nuxt-link>
                 </li>
             </ul>
         </div>
-        <div class="row">
+<!--        <div class="row">
             <ul>
 
                 <li>
@@ -24,7 +24,7 @@
                 </li>
             </ul>
 
-        </div>
+        </div> -->
     </main>
 </template>
 
