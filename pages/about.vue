@@ -86,6 +86,7 @@ main {
       font-size: 1.25rem;
     }
     padding-bottom: 4rem;
+
     p {
       margin-bottom: 1rem;
 
@@ -94,12 +95,16 @@ main {
       }
     }
   }
+
   aside {
     text-align: center;
-    width: 100%;
     img {
       width: 700px;
       height: 700px;
+      @media only screen and (min-width: 480px) {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
