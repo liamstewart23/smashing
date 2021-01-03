@@ -34,6 +34,7 @@
         display: flex;
         height: 100%;
         justify-content: space-between;
+        margin-top: 4rem;
         @media only screen and (min-width: 480px){
             margin: 8rem;
         }

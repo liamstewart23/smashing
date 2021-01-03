@@ -96,6 +96,10 @@ main {
   }
   aside {
     text-align: center;
+    img {
+      width: 700px;
+      height: 700px;
+    }
   }
 }
 </style>

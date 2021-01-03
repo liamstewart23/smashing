@@ -41,7 +41,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "#000" },
+  loading: { color: "#2f2f2f" },
   /*
    ** Global CSS
    */
@@ -79,7 +79,7 @@ export default {
 
   pwa: {
     meta: {
-      theme_color: '#000'
+      theme_color: '#2f2f2f'
     },
     manifest: {
       name: 'Liam Stewart\'s Website',

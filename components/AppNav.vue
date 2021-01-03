@@ -1,5 +1,8 @@
 <template>
     <div class="menu">
+        <nuxt-link exact to="/" class="noUnderline logo">
+            L
+        </nuxt-link>
         <nuxt-link exact to="/menu" class="noUnderline">
             <div class="hamburger hamburger--minus" v-bind:class="{ 'is-active': $route.path === '/menu' }" tabindex="0"
                  aria-label="Menu" role="button">
@@ -15,15 +18,27 @@
 
     .menu {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         margin: 1rem;
+        width: 80%;
         @media only screen and (min-width: 480px) {
+            width: 96%;
             margin: 2rem;
         }
         outline: none;
 
         * {
             outline: none;
+        }
+
+        .logo {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2rem;
+            color: #fff;
+            background: #2f2f2f;
+            height: 55px;
+            width: 55px;
+            padding: 1rem 0.5rem;
         }
     }
 

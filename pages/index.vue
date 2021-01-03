@@ -15,7 +15,7 @@
 <style lang="scss" scoped>
 main {
   display: flex;
-  margin: 2rem;
+  margin: 8rem 2rem 2rem;
   @media only screen and (min-width: 480px) {
     margin: 4rem;
   }
