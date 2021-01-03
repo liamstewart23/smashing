@@ -22,9 +22,16 @@ export default {
   },
 
   webfontloader: {
-    google: {
-      families: ["Roboto:300,900", "Quicksand"]
-    }
+    custom: {
+      families: [
+        'Roboto:n3,n9',
+        'Quicksand',
+      ],
+      urls: [
+        'https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap',
+        'https://fonts.googleapis.com/css?family=Quicksand&display=swap'
+      ]
+    },
   },
 
   /*
@@ -80,10 +87,6 @@ export default {
   sitemap: {
     hostname: "https://liamstewart.ca",
     gzip: true
-  },
-
-  purgeCSS: {
-    // your settings here
   },
 
   /*
