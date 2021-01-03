@@ -33,7 +33,7 @@
         -webkit-font-smoothing: antialiased;
         box-sizing: border-box;
         color: #2f2f2f;
-        animation: fadein 3s;
+        animation: fadein 1.5s;
     }
 
     @keyframes fadein {
@@ -46,7 +46,7 @@
     }
 
     body {
-        width: 100 wh;
+        width: 100vw;
         height: 90vh;
         color: #2f2f2f;
     }
