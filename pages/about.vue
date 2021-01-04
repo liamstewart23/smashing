@@ -63,7 +63,7 @@
 
 <style lang="scss" scoped>
 main {
-  margin: 2rem;
+  margin: 5rem 2rem 2rem;
   @media only screen and (min-width: 480px) {
     margin: 4rem;
   }
@@ -99,11 +99,11 @@ main {
   aside {
     text-align: center;
     img {
-      width: 700px;
-      height: 700px;
+      width: 100%;
+      height: 100%;
       @media only screen and (min-width: 480px) {
-        width: 100%;
-        height: 100%;
+        width: 700px;
+        height: 700px;
       }
     }
   }

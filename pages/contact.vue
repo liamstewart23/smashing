@@ -36,7 +36,7 @@
 <style lang="scss" scoped>
 main {
   width: 80vw;
-  margin: 2rem;
+  margin: 5rem 2rem 2rem;
   @media only screen and (min-width: 480px) {
     width: 60vw;
     margin: 4rem;
