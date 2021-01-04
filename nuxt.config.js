@@ -15,10 +15,107 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Hello! I am Liam Stewart, a Website Developer living in London Ontario."
-      }
+          "Hello! I am Liam Stewart, a Web Developer living in London Ontario."
+      },
+      {
+        hid: 'title',
+        name: 'title',
+        content: 'Liam Stewart - Web Developer | London Ontario'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Hello! I am Liam Stewart, a Web Developer living in London Ontario.'
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Liam Stewart - Web Developer | London Ontario'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Hello! I am Liam Stewart, a Web Developer living in London Ontario.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://liamstewart.ca/icon.png'
+      },
+      // {
+      //   hid: 'og:url',
+      //   property: 'og:url',
+      //   content: `www.mydomain.com${routePath}`
+      // },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'liamstewart.ca'
+      },
+      // {
+      //   hid: 'og:locale',
+      //   property: 'og:locale',
+      //   content: `en`
+      // },
+      {
+        hid: 'og:image:type',
+        property: 'og:image:type',
+        content: 'image/png'
+      },
+      // {
+      //   hid: 'twitter:card',
+      //   property: 'twitter:card',
+      //   content: `${MyStringHandler.truncate(overviewDefault, 65)}`
+      // },
+      // {
+      //   hid: 'twitter:site',
+      //   property: 'twitter:site',
+      //   content: 'mydomain'
+      // },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Liam Stewart - Web Developer | London Ontario'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Hello! I am Liam Stewart, a Web Developer living in London Ontario.'
+      },
+      {
+        hid: 'twitter:creator',
+        property: 'twitter:creator',
+        content: 'Liam Stewart'
+      },
+      {
+        hid: 'twitter:image:src',
+        property: 'twitter:image:src',
+        content: 'https://liamstewart.ca/icon.png'
+      },
+      {
+        hid: 'twitter:domain',
+        property: 'twitter:domain',
+        content: 'liamstewart.ca'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://liamstewart.ca/icon.png'
+      },
+      // {
+      //   hid: 'twitter:url',
+      //   name: 'twitter:url',
+      //   content: `www.mydomain.com${routePath}`
+      // }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+    ]
   },
 
   generate: {
